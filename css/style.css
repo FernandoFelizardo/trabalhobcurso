@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+
+body{
+	padding-top: 75px;
+	font-family: "Open Sans";
+	font-size: 14px;
+	overflow-x: hidden; /*aparecer ou esconder a barra de rolagem, além do x exite o y, um para vertical outro para horizontal*/ 
+}
+hr{
+	border:1px dotted #fff;
+}
+h1{
+	color: #00a3d9;
+	margin: 25px;
+	font-size: 2em;/* aqui multiplica o 12 por dois, 14 que foi definido no body para todo o site */
+	font-weight: 800;
+}
+footer{
+	color: #fff;
+	padding: 20px 0;
+	font-size: 1.3em;
+}
+footer .row i{
+	font-size: 4em;
+	margin: 10px;
+}
+footer a{
+	margin-left: 10px;
+	color: #ccc;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #fff;
+}
+.navbar-light{
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.2); /* sombra no menu*? */
+	background: #fff;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+.dropdown-menu{
+	
+	border-top: 5px solid #000;
+}
+.carousel-inner .carousel-item img{
+	opacity: 0.5;
+}
+.carousel{
+	background: #000;
+}
+
+.carousel-caption{
+	background: rgba(255,255,255,0.3);
+}
+
+.card .card-title, .card p {
+	height: 70px;
+}
+.card a{
+	margin-left: 25%;
+}
+
+.card {
+	margin-bottom: 10px;
+	/*border-color: #0FF;
+	border-radius: 10px;
+	*/
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	transition: all 0.5s;
+}
+.card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+#depoimentos{
+	background: url(../imagens/depoimento.jpg) fixed;
+	padding: 50px 0;
+	background-size: cover;
+
+}
+#depoimentos p{
+	font-size: 1.3em;
+	color: #FFF;
+	margin: 50px;
+}
+#depoimentos img{
+	border: 5px solid #FFF;
+	width: 150px;
+
+}
+#news, #cursos {
+	padding: 50px 0;
+
+}
+.imag{
+	display: flex;
+	padding: 20px;
+}
+.curso{
+	margin-bottom:60px;
+}
+.contatocentralizado{
+	margin-bottom: 30px;
+	margin-top: 30px;	
+}
+.form-group{
+	width:  1500px;
+	float: left;
+}
+
